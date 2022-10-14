@@ -7,6 +7,7 @@
   width: 100%;
   display: flex;
 }
+
 .filters button {
   font-size: 18px;
   background-color: #ff5a5f;
@@ -18,40 +19,48 @@
   border: 0;
   float: right;
   margin-top: 10px;
-  margin-left: 225px;
+  margin-left: auto;
 }
+
 .filters button:hover {
   opacity: 90%;
 }
+
 .filters .locations {
   height: 100%;
   width: 25%;
   border-right: #ddd solid 1px;
   margin-left: 55px;
 }
+
 .filters .amenities {
   height: 100%;
   width: 25%;
   margin-left: 55px;
 }
+
 .filters h2 {
   font-size: 16px;
 }
+
 .filters h3 {
   font-weight: 600;
 }
+
 .filters h4 {
   font-weight: 400;
   font-size: 14px;
   margin-top: -14px;
 }
+
 .filters .popover {
-  visibility: hidden;
+  visibility: hidden; /* does this turn off flex box? */
   background-color: #fafafa;
   border: #ddd solid 1px;
   border-radius: 4px;
   list-style-type: none;
 }
+
 .filters div:hover .popover {
   visibility: visible;
   display: flex;
@@ -60,16 +69,19 @@
   padding-top: 22px;
   padding-bottom: 22px;
 }
+
 .filters .popover li {
   margin-left: -14px;
   margin-bottom: 7px;
 }
+
 .filters .popover ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   margin-top: -10px;
 }
+
 .filters .amenities li {
   padding-left: 28px;
 }
