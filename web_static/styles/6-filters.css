@@ -39,6 +39,10 @@
     margin-left: 55px;
   }
 
+  .filters h2 {
+    font-size: 16px;
+  }
+
   .filters h3 {
     font-weight: 600;
   }
@@ -47,4 +51,37 @@
     font-weight: 400;
     font-size: 14px;
     margin-top: -14px;
+  }
+
+  .filters .popover {
+    visibility: hidden;
+    background-color: #fafafa;
+    border: #ddd solid 1px;
+    border-radius: 4px;
+    list-style-type: none;
+  }
+
+  .filters div:hover .popover {
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    margin-left: -55px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+
+  .filters .popover li {
+    margin-left: -14px;
+    margin-bottom: 7px;
+  }
+
+  .filters .popover ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+  }
+
+  .filters .amenities li {
+    padding-left: 28px;
   }
