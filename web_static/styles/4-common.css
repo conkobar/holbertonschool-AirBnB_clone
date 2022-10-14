@@ -11,6 +11,5 @@ body {
   display: flex;
   max-width: 1000px;
   margin: 30px auto;
-  justify-content: center;
-  align-items: center;
+  align-self: center;
 }
